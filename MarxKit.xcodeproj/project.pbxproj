@@ -39,17 +39,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3B0C34731743D1D300F2FD94 /* PJDebugMode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJDebugMode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B0C34771743D1D300F2FD94 /* PJDebugMode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PJDebugMode-Info.plist"; sourceTree = "<group>"; };
+		3B0C34731743D1D300F2FD94 /* MarxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0C34771743D1D300F2FD94 /* MarxKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarxKit-Info.plist"; sourceTree = "<group>"; };
 		3B0C34791743D1D300F2FD94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3B0C347B1743D1D300F2FD94 /* PJDebugMode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PJDebugMode-Prefix.pch"; sourceTree = "<group>"; };
+		3B0C347B1743D1D300F2FD94 /* MarxKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarxKit-Prefix.pch"; sourceTree = "<group>"; };
 		3B0C34831743D50F00F2FD94 /* PJDMMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJDMMacros.h; sourceTree = "<group>"; };
 		3B0C34841743D50F00F2FD94 /* PJDMOutputWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJDMOutputWriter.h; sourceTree = "<group>"; };
 		3B0C34851743D50F00F2FD94 /* PJDMOutputWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJDMOutputWriter.m; sourceTree = "<group>"; };
 		3B89B5571796F2E800DFCE3F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		3B89B56B1796F34400DFCE3F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		3B89B56C1796F34400DFCE3F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		3B89B56D1796F34500DFCE3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A328848179543FC007F0D37 /* PJDebugTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJDebugTool.h; sourceTree = "<group>"; };
 		8A328849179543FC007F0D37 /* PJDebugTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJDebugTool.m; sourceTree = "<group>"; };
 		8A32884A179543FC007F0D37 /* PJDebugToolSettingsViewer_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PJDebugToolSettingsViewer_iPhone5.xib; sourceTree = "<group>"; };
@@ -63,7 +60,7 @@
 		8A3288591795461D007F0D37 /* bouton-option3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bouton-option3.png"; sourceTree = "<group>"; };
 		8A32885A1795461D007F0D37 /* bouton-option3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bouton-option3@2x.png"; sourceTree = "<group>"; };
 		8A32885B1795461D007F0D37 /* bouton-option@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bouton-option@2x.png"; sourceTree = "<group>"; };
-		8A32886217957613007F0D37 /* PJDMServersList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PJDMServersList.plist; path = PJDMDebug/PJDMServersList.plist; sourceTree = "<group>"; };
+		8A32886217957613007F0D37 /* PJDMServersList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PJDMServersList.plist; path = MarxKit/PJDMServersList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +77,7 @@
 		3B0C34661743D1D300F2FD94 = {
 			isa = PBXGroup;
 			children = (
-				3B0C34751743D1D300F2FD94 /* PJDebugMode */,
+				3B0C34751743D1D300F2FD94 /* MarxKit */,
 				3B89B5561796F2E800DFCE3F /* Frameworks */,
 				3B0C34741743D1D300F2FD94 /* Products */,
 			);
@@ -89,27 +86,27 @@
 		3B0C34741743D1D300F2FD94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B0C34731743D1D300F2FD94 /* PJDebugMode.framework */,
+				3B0C34731743D1D300F2FD94 /* MarxKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B0C34751743D1D300F2FD94 /* PJDebugMode */ = {
+		3B0C34751743D1D300F2FD94 /* MarxKit */ = {
 			isa = PBXGroup;
 			children = (
 				8A32886217957613007F0D37 /* PJDMServersList.plist */,
 				3B0C34811743D50F00F2FD94 /* PJDMDebug */,
 				3B0C34761743D1D300F2FD94 /* Supporting Files */,
 			);
-			path = PJDebugMode;
+			path = MarxKit;
 			sourceTree = "<group>";
 		};
 		3B0C34761743D1D300F2FD94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B0C34771743D1D300F2FD94 /* PJDebugMode-Info.plist */,
+				3B0C34771743D1D300F2FD94 /* MarxKit-Info.plist */,
 				3B0C34781743D1D300F2FD94 /* InfoPlist.strings */,
-				3B0C347B1743D1D300F2FD94 /* PJDebugMode-Prefix.pch */,
+				3B0C347B1743D1D300F2FD94 /* MarxKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,7 +119,8 @@
 				3B0C34851743D50F00F2FD94 /* PJDMOutputWriter.m */,
 				3B0C34861743D50F00F2FD94 /* UserInterfaces */,
 			);
-			path = PJDMDebug;
+			name = PJDMDebug;
+			path = MarxKit;
 			sourceTree = "<group>";
 		};
 		3B0C34821743D50F00F2FD94 /* Commons */ = {
@@ -152,19 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				3B89B5571796F2E800DFCE3F /* CoreFoundation.framework */,
-				3B89B56A1796F34400DFCE3F /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3B89B56A1796F34400DFCE3F /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3B89B56B1796F34400DFCE3F /* AppKit.framework */,
-				3B89B56C1796F34400DFCE3F /* CoreData.framework */,
-				3B89B56D1796F34500DFCE3F /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		8A3288551795461C007F0D37 /* Images */ = {
@@ -198,9 +185,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3B0C34721743D1D300F2FD94 /* PJDebugMode */ = {
+		3B0C34721743D1D300F2FD94 /* MarxKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B0C347E1743D1D300F2FD94 /* Build configuration list for PBXNativeTarget "PJDebugMode" */;
+			buildConfigurationList = 3B0C347E1743D1D300F2FD94 /* Build configuration list for PBXNativeTarget "MarxKit" */;
 			buildPhases = (
 				3B0C346B1743D1D300F2FD94 /* ShellScript */,
 				3B0C346C1743D1D300F2FD94 /* Sources */,
@@ -215,9 +202,9 @@
 			);
 			dependencies = (
 			);
-			name = PJDebugMode;
+			name = MarxKit;
 			productName = PJDebugMode;
-			productReference = 3B0C34731743D1D300F2FD94 /* PJDebugMode.framework */;
+			productReference = 3B0C34731743D1D300F2FD94 /* MarxKit.framework */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +216,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Alejo Berman";
 			};
-			buildConfigurationList = 3B0C346A1743D1D300F2FD94 /* Build configuration list for PBXProject "PJDebugMode" */;
+			buildConfigurationList = 3B0C346A1743D1D300F2FD94 /* Build configuration list for PBXProject "MarxKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -241,7 +228,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B0C34721743D1D300F2FD94 /* PJDebugMode */,
+				3B0C34721743D1D300F2FD94 /* MarxKit */,
 			);
 		};
 /* End PBXProject section */
@@ -404,8 +391,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PJDebugMode/PJDebugMode-Prefix.pch";
-				INFOPLIST_FILE = "PJDebugMode/PJDebugMode-Info.plist";
+				GCC_PREFIX_HEADER = "MarxKit/MarxKit-Prefix.pch";
+				INFOPLIST_FILE = "MarxKit/MarxKit-Info.plist";
 				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = NO;
@@ -428,8 +415,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PJDebugMode/PJDebugMode-Prefix.pch";
-				INFOPLIST_FILE = "PJDebugMode/PJDebugMode-Info.plist";
+				GCC_PREFIX_HEADER = "MarxKit/MarxKit-Prefix.pch";
+				INFOPLIST_FILE = "MarxKit/MarxKit-Info.plist";
 				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = NO;
@@ -445,7 +432,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B0C346A1743D1D300F2FD94 /* Build configuration list for PBXProject "PJDebugMode" */ = {
+		3B0C346A1743D1D300F2FD94 /* Build configuration list for PBXProject "MarxKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B0C347C1743D1D300F2FD94 /* Debug */,
@@ -454,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B0C347E1743D1D300F2FD94 /* Build configuration list for PBXNativeTarget "PJDebugMode" */ = {
+		3B0C347E1743D1D300F2FD94 /* Build configuration list for PBXNativeTarget "MarxKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B0C347F1743D1D300F2FD94 /* Debug */,
