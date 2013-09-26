@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PJDebugMode' target in the 'PJDebugMode' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif
