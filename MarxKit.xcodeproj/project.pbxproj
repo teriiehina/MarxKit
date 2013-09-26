@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				8A32886217957613007F0D37 /* PJDMServersList.plist */,
-				3B0C34811743D50F00F2FD94 /* PJDMDebug */,
+				3B0C34811743D50F00F2FD94 /* MarxKit */,
 				3B0C34761743D1D300F2FD94 /* Supporting Files */,
 			);
 			path = MarxKit;
@@ -111,7 +111,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3B0C34811743D50F00F2FD94 /* PJDMDebug */ = {
+		3B0C34811743D50F00F2FD94 /* MarxKit */ = {
 			isa = PBXGroup;
 			children = (
 				3B0C34821743D50F00F2FD94 /* Commons */,
@@ -119,7 +119,6 @@
 				3B0C34851743D50F00F2FD94 /* PJDMOutputWriter.m */,
 				3B0C34861743D50F00F2FD94 /* UserInterfaces */,
 			);
-			name = PJDMDebug;
 			path = MarxKit;
 			sourceTree = "<group>";
 		};
