@@ -24,6 +24,8 @@
 		8A32884F179543FC007F0D37 /* PJDebugTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A328849179543FC007F0D37 /* PJDebugTool.m */; };
 		8A328851179543FC007F0D37 /* PJDebugToolSettingsViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A32884B179543FC007F0D37 /* PJDebugToolSettingsViewer.h */; settings = {ATTRIBUTES = (); }; };
 		8A328852179543FC007F0D37 /* PJDebugToolSettingsViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A32884C179543FC007F0D37 /* PJDebugToolSettingsViewer.m */; };
+		D73F00C217F47CE300497FF9 /* MarkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D73F00C017F47CE300497FF9 /* MarkKit.h */; };
+		D73F00C317F47CE300497FF9 /* MarkKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D73F00C117F47CE300497FF9 /* MarkKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +63,8 @@
 		8A32885A1795461D007F0D37 /* bouton-option3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bouton-option3@2x.png"; sourceTree = "<group>"; };
 		8A32885B1795461D007F0D37 /* bouton-option@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bouton-option@2x.png"; sourceTree = "<group>"; };
 		8A32886217957613007F0D37 /* PJDMServersList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PJDMServersList.plist; path = MarxKit/PJDMServersList.plist; sourceTree = "<group>"; };
+		D73F00C017F47CE300497FF9 /* MarkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkKit.h; sourceTree = "<group>"; };
+		D73F00C117F47CE300497FF9 /* MarkKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 		3B0C34811743D50F00F2FD94 /* MarxKit */ = {
 			isa = PBXGroup;
 			children = (
+				D73F00C017F47CE300497FF9 /* MarkKit.h */,
+				D73F00C117F47CE300497FF9 /* MarkKit.m */,
 				3B0C34821743D50F00F2FD94 /* Commons */,
 				3B0C34841743D50F00F2FD94 /* PJDMOutputWriter.h */,
 				3B0C34851743D50F00F2FD94 /* PJDMOutputWriter.m */,
@@ -177,6 +183,7 @@
 				3B0C348A1743D50F00F2FD94 /* PJDMOutputWriter.h in Headers */,
 				8A32884E179543FC007F0D37 /* PJDebugTool.h in Headers */,
 				8A328851179543FC007F0D37 /* PJDebugToolSettingsViewer.h in Headers */,
+				D73F00C217F47CE300497FF9 /* MarkKit.h in Headers */,
 				3B403DD61796E4460025A040 /* PJDebugToolDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +308,7 @@
 				3B0C348B1743D50F00F2FD94 /* PJDMOutputWriter.m in Sources */,
 				8A32884F179543FC007F0D37 /* PJDebugTool.m in Sources */,
 				8A328852179543FC007F0D37 /* PJDebugToolSettingsViewer.m in Sources */,
+				D73F00C317F47CE300497FF9 /* MarkKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
