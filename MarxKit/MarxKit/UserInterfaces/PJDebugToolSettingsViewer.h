@@ -49,7 +49,7 @@
 }
 
 
-@property (nonatomic, assign) id<PJDebugToolDelegate> delegate;
+@property (nonatomic, unsafe_unretained) id<PJDebugToolDelegate> delegate;
 
 
 /** Click sur un des deux boutons de la bar du haut (autre que "OK") et affiche alternativement l'écran de log ou de filtres */
