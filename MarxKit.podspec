@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/teriiehina/MarxKit"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.authors      = { "Alejo Berman" => "aberman@gmail.com" , "Jérémie Godom" => "psg75@gmail.com" , "Peter Meuel" => "peter@teriiehina.net"}
+  s.authors      = { "Alejo Berman" => "alejoberman@gmail.com" , "Jérémie Godom" => "jeremie.godon@gmail.com" , "Peter Meuel" => "peter@teriiehina.net"}
   
   s.platform     = :ios, '5.0'
   s.source       = { :git => "https://github.com/teriiehina/MarxKit.git", :tag => "0.0.1" }
